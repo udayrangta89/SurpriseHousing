@@ -63,7 +63,7 @@ There are 105/240 variables that according to lasso will impact the SalePrice of
 
 
 ## Contact
-Created by [@udayrangta89] - feel free to contact me!
+Created by @udayrangta89 - feel free to contact me!
 
 
 <!-- Optional -->
