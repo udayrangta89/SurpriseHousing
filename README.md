@@ -28,13 +28,13 @@ We are required to model the price of houses with the available independent vari
 - Conclusion 1 from the analysis
 <br>We have 3 float type, 35 int and 43 object type.and we see that there are some columns with null values.
 - Conclusion 2 from the analysis
-Note the correlation between LotFrontage and SalePrice is 0.351799. We will use this obseravation in deciding if the missing value needs to be deleted for LotFrontag
+<br><br>Note the correlation between LotFrontage and SalePrice is 0.351799. We will use this obseravation in deciding if the missing value needs to be deleted for LotFrontag
 - Conclusion 3 from the analysis
-Number of columns with some value as null : 19
+<br>br>Number of columns with some value as null : 19
 - Conclusion 4 from the analysis
-For LotFrontage, there are 257 missing values which account to 17% of the data. There is a correlation between LotFrontage and SalePrice so its important to get the right values.
+<br>For LotFrontage, there are 257 missing values which account to 17% of the data. There is a correlation between LotFrontage and SalePrice so its important to get the right values.
 - Conclusion 5 from the analysis
-    After decidign to go with Lasso model.
+<br>After decidign to go with Lasso model.
    Top 5 significant variables in predicting the price of the house-
         1. Neighborhood_StoneBr
         2. SaleType_New
@@ -42,8 +42,8 @@ For LotFrontage, there are 257 missing values which account to 17% of the data. 
         4. Neighborhood_NridgHt
         5. BsmtQual_Gd
 
-- Conclusion 5 from the analysis
-Company can use this model to predict the actual values and buy them at a lower price than what the model has predicted.
+- Conclusion 6 from the analysis
+<br>Company can use this model to predict the actual values and buy them at a lower price than what the model has predicted.
 They can either go with variables with stong + coefficients, like Stonebrook, Northridge, Northridge heights neighbourhood, Newly constructed homes. 
 And with Strong -ve coefficients - like Height of basement between 80 to 99 inches, Kitchens above grade, Roof material Grave and Tar.
 Business can make decision according to the coefficients, like if Roof material is Grave and Tar, they can buy it a very low cost highlighting the material, probably if they find in a good neightbourhood,and sell it at higher price by highlighting the good neighbour feature.
