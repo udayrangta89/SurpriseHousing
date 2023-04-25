@@ -26,7 +26,7 @@ We are required to model the price of houses with the available independent vari
 
 ## Conclusions
 - Conclusion 1 from the analysis
-We have 3 float type, 35 int and 43 object type.and we see that there are some columns with null values.
+<br>We have 3 float type, 35 int and 43 object type.and we see that there are some columns with null values.
 - Conclusion 2 from the analysis
 Note the correlation between LotFrontage and SalePrice is 0.351799. We will use this obseravation in deciding if the missing value needs to be deleted for LotFrontag
 - Conclusion 3 from the analysis
